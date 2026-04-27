@@ -1,0 +1,28 @@
+@use "../../settings/fonts";
+@use "../../utils/fonts" as f;
+@use "../../visuals/colors" as c;
+
+.app__sidebar {
+    background: c.$colorWhite;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.sidebar {
+    &__title {
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    &__item {
+        padding: 0.6rem 0.8rem;
+        border-radius: 6px;
+        margin-bottom: 0.3rem;
+        cursor: pointer;
+        font-size: 0.9rem;
+    }
+
+    &__item.active {
+        background: c.$colorWhite;
+    }
+}

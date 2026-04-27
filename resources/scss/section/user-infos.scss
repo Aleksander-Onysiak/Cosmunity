@@ -1,0 +1,36 @@
+@use "../settings/fonts";
+@use "../utils/fonts" as f;
+@use "../visuals/colors" as c;
+
+.card {
+    background: c.$colorWhite;
+    border: 1px solid c.$colorWhite;
+    border-radius: 8px;
+    padding: 1.5rem;
+
+    &__title {
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    &__bio {
+        border: 1px solid c.$colorWhite;
+        padding: 1rem;
+        border-radius: 6px;
+        margin-bottom: 1rem;
+    }
+}
+
+
+.grid-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.info {
+    border: 1px solid c.$colorWhite;
+    border-radius: 6px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,14 @@
+@use "../settings/fonts";
+@use "../utils/fonts" as f;
+@use "../visuals/colors" as c;
+
+.app {
+    &__topbar {
+        display: grid;
+        grid-template-columns: 260px 1fr;
+        align-items: center;
+
+        background: c.$colorWhite;
+        border-bottom: 1px solid c.$colorWhite;
+    }
+}

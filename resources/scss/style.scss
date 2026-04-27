@@ -1,0 +1,17 @@
+@use "utils/sr-only";
+@use "visuals/colors";
+@use "settings/fonts";
+@use "visuals/buttons";
+@use "visuals/svg";
+
+@use "./dashboard";
+@use "./general/general";
+
+@use "section/navigation/side-nav";
+@use "section/navigation/top-nav";
+
+@use "section/suggestions";
+@use "section/top-section";
+
+@use "section/user-infos";
+@use "section/user-side";

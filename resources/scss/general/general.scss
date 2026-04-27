@@ -1,0 +1,65 @@
+@use "../settings/fonts";
+@use "../utils/fonts" as f;
+@use "../visuals/colors" as c;
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: c.$colorWhite;
+    overflow: hidden;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &__layout {
+        flex: 1;
+        display: grid;
+        grid-template-columns: 260px 1fr 320px;
+        overflow: hidden;
+    }
+
+    &__content {
+        overflow-y: auto;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    &__aside {
+        padding: 1rem;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+
+.post {
+    background: c.$colorWhite;
+    border: 1px solid c.$colorWhite;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.post__input {
+    border: 1px solid c.$colorWhite;
+    border-radius: 20px;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+
+.news {
+    background: c.$colorWhite;
+    padding: 1rem;
+    border-radius: 8px;
+}

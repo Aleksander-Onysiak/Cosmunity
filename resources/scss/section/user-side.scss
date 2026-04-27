@@ -1,0 +1,69 @@
+@use "../settings/fonts";
+@use "../utils/fonts" as f;
+@use "../visuals/colors" as c;
+
+.profile {
+    background: c.$colorWhite;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid c.$colorWhite;
+
+    &__banner {
+        height: 180px;
+        background: c.$colorWhite;
+        position: relative;
+    }
+
+    &__avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: c.$colorWhite;
+        border: 2px solid c.$colorBlack;
+        position: absolute;
+        bottom: -60px;
+        left: 20px;
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    &__btn {
+        padding: 0.5rem 1rem;
+        border: 1px solid c.$colorBlack;
+        border-radius: 6px;
+        background: c.$colorWhite;
+    }
+}
+
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+
+    padding-left: 1.5rem;
+
+    &__avatar {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: c.$colorWhite;
+    }
+
+    &__name {
+        font-weight: bold;
+        @include f.Poppins-Bold;
+    }
+
+    &__pseudo {
+        font-size: 0.8rem;
+        opacity: 0.6;
+    }
+
+}
+
