@@ -79,7 +79,6 @@ Cette plateforme vise à devenir **le hub communautaire du cosplay francophone**
 
 ### 🧠 Fonctions “Wow”
 - Matching automatique de partenaires cosplay (univers, région, style).  
-- Assistant IA / AR pour suggestions d’idées de costumes ou d’accessoires.  
 - Mode “Convention” : QR codes, carte interactive, partage instantané.  
 - Mode hors ligne pour consulter son profil, calendrier et favoris.  
 
@@ -104,7 +103,7 @@ Cette plateforme vise à devenir **le hub communautaire du cosplay francophone**
 | 📸 Photographes | Profils + reviews | Portfolio, réservations, certification |
 | 🌍 Lieux / Spots | Suggestions + votes | Carte interactive + avis détaillés |
 | 📰 Actualités | Annonces cosplay | Fil personnalisé, articles, offres |
-| 🧠 Fonctions bonus | — | Matching, IA, mode convention |
+| 🧠 Fonctions bonus | — | Matching, mode convention |
 | 🎨 UX/UI | — | Thèmes, personnalisation, mobile-first |
 
 ---
@@ -116,7 +115,6 @@ Cette plateforme vise à devenir **le hub communautaire du cosplay francophone**
 - **Base de données :** MySQL
 - **Authentification :** OAuth (Google, Discord, Instagram)  
 - **API externes :** Google Maps, Calendars, Cloudinary  
-- **IA / AR :** API de suggestion et reconnaissance visuelle (OpenAI, Snap AR, etc.)  
 
 ---
 
