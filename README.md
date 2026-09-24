@@ -78,7 +78,7 @@ Cette plateforme vise à devenir **le hub communautaire du cosplay francophone**
 ---
 
 ### 🧠 Fonctions “Wow”
-- Matching automatique de partenaires cosplay (univers, région, style).  
+- Proposition automatique de groupes, topics et contacts (univers, région, style, tags).  
 - Mode “Convention” : QR codes, carte interactive, partage instantané.  
 - Mode hors ligne pour consulter son profil, calendrier et favoris.  
 
