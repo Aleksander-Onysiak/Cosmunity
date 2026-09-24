@@ -77,7 +77,7 @@ Cette plateforme vise à devenir **le hub communautaire du cosplay francophone**
 
 ---
 
-### 🧠 Fonctions “Wow”
+### 🧠 Addons
 - Proposition automatique de groupes, topics et contacts (univers, région, style, tags).  
 - Mode “Convention” : QR codes, carte interactive, partage instantané.  
 - Mode hors ligne pour consulter son profil, calendrier et favoris.  
@@ -103,7 +103,7 @@ Cette plateforme vise à devenir **le hub communautaire du cosplay francophone**
 | 📸 Photographes | Profils + reviews | Portfolio, réservations, certification |
 | 🌍 Lieux / Spots | Suggestions + votes | Carte interactive + avis détaillés |
 | 📰 Actualités | Annonces cosplay | Fil personnalisé, articles, offres |
-| 🧠 Fonctions bonus | — | Matching, mode convention |
+| 🧠 Adonis | — | Matching, mode convention |
 | 🎨 UX/UI | — | Thèmes, personnalisation, mobile-first |
 
 ---
